@@ -50,10 +50,10 @@
 .name-tag {
   position: absolute;
   width: 680px;
-  height: 792px;
+  height: 720px;
   margin: 0 auto;
   padding-bottom: 10px;
-  border: 2px solid black;
+  border-radius: 100px;
   animation: splash-screen 3s ease-in-out forwards;
 }
 
@@ -68,7 +68,7 @@
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-  background-color: #fdd835;
+  background-color: orange;
   height: 180px;
   border-bottom: 2px solid black;
 }
