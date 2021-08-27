@@ -1,0 +1,126 @@
+.button_detail {
+  all: unset;
+  background-color: white;
+  color: black;
+  padding: 5px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.modal {
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal__overlay {
+  background-color: rgba(0, 0, 0, 0.9);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.modal__content {
+  display: flex;
+  z-index: 200;
+  flex-direction: column;
+  justify-content: flex-start;
+  min-width: 1000px;
+  width: 90%;
+  height: 90%;
+  text-align: center;
+  position: relative;
+  border-radius: 10px;
+  border: 2px solid white;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.modal-wrapper {
+  display: flex;
+  background-color: white;
+
+  z-index: 200;
+  height: 100%;
+  min-width: 1000px;
+}
+
+.hidden {
+  display: none;
+}
+
+/********************************************/
+.team-name {
+  color: white;
+}
+
+.nav-detail {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+
+  padding: 0 20px;
+}
+.btn-detail-close {
+  color: white;
+  display: block;
+  align-content: center;
+  background-color: transparent;
+  border: 0;
+  outline: 0;
+}
+/*********************************************/
+
+.producer-intro {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+/****************************************/
+.modal-wrapper {
+  overflow-y: auto;
+}
+.detail-container {
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  overflow-y: auto;
+}
+
+/******************profile********************/
+.profile-box {
+  display: flex;
+  justify-content: center;
+  margin: 0 20px;
+}
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/******************project*********************/
+.project-PT {
+  background-color: rgb(26, 26, 26);
+  margin: 10px 50px;
+  padding: 20px 0;
+}
+
+.project-contents {
+  width: 100%;
+}
+
+.pdf {
+  min-width: 500px;
+  max-width: 1000px;
+  width: 90%;
+  margin: 0 auto;
+}

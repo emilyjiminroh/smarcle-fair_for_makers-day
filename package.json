@@ -1,0 +1,27 @@
+{
+  "name": "simulation",
+  "version": "1.0.0",
+  "description": "<hr/>",
+  "main": "index.js",
+  "dependencies": {
+    "parcel-bundler": "^1.12.5"
+  },
+  "devDependencies": {
+    "@parcel/transformer-image": "^2.0.0-rc.0"
+  },
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jiyajiwon/simulation.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jiyajiwon/simulation/issues"
+  },
+  "homepage": "https://github.com/Jiyajiwon/simulation#readme",
+  "keywords": []
+}

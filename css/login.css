@@ -1,0 +1,104 @@
+.login-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-main {
+  /* 메뉴바 겹침에 대비 -> padding-top*/
+  padding-top: 65px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-title h1 {
+  margin: 45px 20px;
+  text-align: center;
+}
+
+.ask {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 25px;
+  font-weight: bold;
+  margin: 25px 0px;
+}
+
+.ask form input {
+  width: 300px;
+  font-size: 45px;
+  border: none;
+  border-bottom: 2px solid black;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.ask form input:focus {
+  outline: none;
+  border-bottom-color: steelblue;
+}
+
+.form-name input {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.form-position input {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.name,
+.position {
+  margin-top: 30px;
+  color: navy;
+}
+
+/* js 관련 css */
+.hidden {
+  display: none;
+}
+
+/* 입장 버튼 꾸미기 */
+.enter {
+  width: 250px;
+  height: 60px;
+  background-color: navy;
+  border-radius: 20px;
+}
+
+.enter a {
+  color: whitesmoke;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.login-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px 0px 20px;
+}
+
+.login-footer span {
+  text-align: center;
+}
+
+.login-footer a {
+  margin: 20px 0px;
+  padding: 20px;
+  text-decoration: none;
+  color: whitesmoke;
+  background-color: steelblue;
+  border-radius: 20px;
+  font-size: 15px;
+}
+
+/* 비율 배정 */
+.login-main {
+  flex: 1 1 90%;
+}
+
+.login-footer {
+  flex: 1 1 10%;
+}

@@ -1,0 +1,96 @@
+.dev-main {
+  width: 100%;
+  padding: 70px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.developers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.developers header,
+.mento header {
+  margin: 40px 0px;
+  padding-top: 30px;
+}
+.developers header span,
+.mento header span {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.developers-info {
+  display: flex;
+}
+
+.developer {
+  padding: 0px 60px;
+}
+
+.developer:nth-child(2) {
+  border-left: 1px solid rgba(0, 0, 0, 0.3);
+  border-right: 1px solid rgba(0, 0, 0, 0.3);
+}
+.developer header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.developer header span {
+  padding-top: 40px;
+  font-size: 35px;
+  font-weight: bold;
+}
+.developer header img {
+  width: 250px;
+  height: 250px;
+}
+
+.mento header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.mento header img {
+  width: 250px;
+  height: 250px;
+}
+
+.mento .meto-info span {
+  padding-top: 40px;
+  font-size: 35px;
+  font-weight: bold;
+}
+.explain {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 25px;
+}
+
+.explain span {
+  margin-bottom: 15px;
+}
+
+footer {
+  text-align: center;
+  display: flex;
+}
+
+footer a {
+  margin: 0px auto;
+  padding-top: 40px;
+}
+
+footer a i {
+  font-size: 50px;
+}
+.developer,
+article .mento {
+  width: 450px;
+}
