@@ -2,7 +2,7 @@
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: steelblue;
+  background-color: var(--sm-blue-color);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -37,7 +37,7 @@
 }
 .menu-bar .menus a:hover {
   border-radius: 5px;
-  background-color: navy;
+  background-color: var(--sm-green-color);
 }
 
 .others a {
