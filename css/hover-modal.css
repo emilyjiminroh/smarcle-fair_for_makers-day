@@ -1,5 +1,5 @@
 .button_detail:hover {
-  background-color: tomato;
+  background-color: var(--sm-blue-color);
 }
 .hover-modal {
   z-index: 1;
