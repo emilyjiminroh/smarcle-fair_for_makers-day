@@ -2,13 +2,13 @@
 @import "./root.css";
 @import "./name-tag.css";
 @import "./modal-detail.css";
-@import "./login.css";
 @import "./menu.css";
 @import "./hover-modal.css";
 @import "./introduce/developer.css";
 @import "./index.css";
 @import "./guest-book.css";
 @import "./guest-book.css";
+@import "./login.css";
 
 @font-face {
   font-family: "Pretendard-Regular";
