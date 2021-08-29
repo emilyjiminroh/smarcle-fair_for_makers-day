@@ -89,8 +89,13 @@
 
 .developer_footer a i {
   font-size: 50px;
+  color: black;
 }
 .developer,
 article .mento {
   width: 450px;
+}
+.dev-git {
+  width: 60px;
+  height: 60px;
 }
