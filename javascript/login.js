@@ -3,6 +3,9 @@ const loginPositionForm = document.querySelector(".form-position");
 const loginNameInput = document.querySelector(".input-name");
 const loginPositionInput = document.querySelector(".input-position");
 
+const nameSubmitBtn = document.querySelector(".bsn");
+const positionSubmitBtn = document.querySelector(".bsp");
+
 const loginName = document.querySelector(".name");
 const loginPosition = document.querySelector(".position");
 
@@ -23,6 +26,7 @@ let nameAndPosition = [];
 function nameSubmit(event) {
   event.preventDefault();
   loginNameForm.classList.add(CLASS_HIDDEN);
+  nameSubmitBtn.classList.add(CLASS_HIDDEN);
   const name = loginNameInput.value;
   localStorage.setItem(NAME_KEY, name);
   num += 1;
@@ -36,6 +40,7 @@ function nameSubmit(event) {
 function positionSubmit(event) {
   event.preventDefault();
   loginPositionForm.classList.add(CLASS_HIDDEN);
+  positionSubmitBtn.classList.add(CLASS_HIDDEN);
   const position = loginPositionInput.value;
   localStorage.setItem(POSITION_KEY, position);
   num += 1;
@@ -63,8 +68,10 @@ const savedPosition = localStorage.getItem(POSITION_KEY);
 
 if (savedName === null || savedPosition === null) {
   loginNameInput.classList.remove(CLASS_HIDDEN);
+  nameSubmitBtn.classList.remove(CLASS_HIDDEN);
   loginNameForm.addEventListener("submit", nameSubmit);
   loginPositionInput.classList.remove(CLASS_HIDDEN);
+  positionSubmitBtn.classList.remove(CLASS_HIDDEN);
   loginPositionForm.addEventListener("submit", positionSubmit);
 } else {
   paintName();
