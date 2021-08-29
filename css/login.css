@@ -102,14 +102,19 @@
   text-align: center;
 }
 
-.login-footer a {
+.modify {
+  padding: 20px 0px 20px 0px;
+  display: block;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
   margin: 20px 0px;
-  padding: 20px;
   text-decoration: none;
   color: whitesmoke;
   background-color: steelblue;
   border-radius: 20px;
-  font-size: 15px;
+  font-size: 20px;
 }
 
 /* 비율 배정 */
