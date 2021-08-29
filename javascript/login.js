@@ -23,10 +23,10 @@ let nameAndPosition = [];
 function nameSubmit(event) {
   event.preventDefault();
   loginNameForm.classList.add(CLASS_HIDDEN);
-  const name =loginNameInput.value;
+  const name = loginNameInput.value;
   localStorage.setItem(NAME_KEY, name);
   num += 1;
-  if (num == 2){
+  if (num == 2) {
     enterBtn.classList.remove(CLASS_HIDDEN);
     modiBtn.classList.remove(CLASS_HIDDEN);
   }
@@ -36,10 +36,10 @@ function nameSubmit(event) {
 function positionSubmit(event) {
   event.preventDefault();
   loginPositionForm.classList.add(CLASS_HIDDEN);
-  const position =loginPositionInput.value;
+  const position = loginPositionInput.value;
   localStorage.setItem(POSITION_KEY, position);
   num += 1;
-  if (num == 2){
+  if (num == 2) {
     enterBtn.classList.remove(CLASS_HIDDEN);
     modiBtn.classList.remove(CLASS_HIDDEN);
   }
@@ -48,7 +48,7 @@ function positionSubmit(event) {
 
 function paintName() {
   const name = localStorage.getItem(NAME_KEY);
-  loginName.innerText = `어서오세요 ${name}님!`;
+  loginName.innerText = `어서오세요, ${name}님!`;
   loginName.classList.remove(CLASS_HIDDEN);
 }
 
@@ -60,7 +60,6 @@ function paintPosition() {
 
 const savedName = localStorage.getItem(NAME_KEY);
 const savedPosition = localStorage.getItem(POSITION_KEY);
-
 
 if (savedName === null || savedPosition === null) {
   loginNameInput.classList.remove(CLASS_HIDDEN);
@@ -76,7 +75,7 @@ if (savedName === null || savedPosition === null) {
 
 // 수정 버튼
 
-function delLocal(){
+function delLocal() {
   localStorage.removeItem(NAME_KEY);
   localStorage.removeItem(POSITION_KEY);
 }
