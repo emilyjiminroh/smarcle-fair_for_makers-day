@@ -17,18 +17,6 @@ const POSITION_KEY = "position";
 const enterBtn = document.querySelector(".enter");
 const modiBtn = document.querySelector(".modify");
 
-// local storage에 정보 있으면 입력 버튼 hidden
-function checkLocal(){
-  const localName = localStorage.getItem("name");
-
-  if(localName !== Null){
-    enterBtn.classList.add(CLASS_HIDDEN);
-    modiBtn.classList.add(CLASS_HIDDEN);
-  }
-}
-
-checkLocal();
-
 // 이름 포지션 받으면 1 증가 -> 2 되면 버튼 생성
 let num = 0;
 
