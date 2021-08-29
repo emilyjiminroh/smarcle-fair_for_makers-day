@@ -72,6 +72,10 @@ li {
   height: 220px;
 }
 
-footer {
-  margin-bottom: 50px;
+.intro_git {
+  width: 100px;
+  height: 100px;
+}
+.click-git {
+  font-size: 20px;
 }
