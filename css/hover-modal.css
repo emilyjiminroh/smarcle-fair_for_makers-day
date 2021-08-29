@@ -34,8 +34,8 @@
   justify-content: space-around;
 }
 .hover-modal__img {
-  width: 150px;
   height: 150px;
+  width: auto;
   margin: 5px;
 }
 
