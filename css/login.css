@@ -10,7 +10,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
 }
 
 .login-title {
@@ -42,12 +41,16 @@
   font-size: 25px;
 }
 
+.ask {
+  margin-top: 60px;
+}
+
 .ask form input {
   width: 250px;
   font-size: 30px;
   border: none;
   border-bottom: 2px solid black;
-  margin-top: 40px;
+  margin-top: 20px;
   text-align: center;
 }
 
