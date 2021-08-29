@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>guset-book</title>
+  <link rel="stylesheet" href="./css/styles.css" />
+  <link rel="shortcut icon" href="./img/smarcle_logo.ico" />
+  <script defer src="./javascript/menu.js"></script>
+</head>
+<body>
+  <header class="name-sheet-header">
+    <nav class="menu-bar">
+      <div class="title">
+        <a href="main.html">
+          <span>SMARCLE-FAIR</span>
+        </a>
+      </div>
+      <div class="menus">
+        <a href="fair-intro.html">
+          <span>박람회 소개</span>
+        </a>
+        <a href="developer-intro.html">
+          <span>제작자 소개</span>
+        </a>
+        <a href="name-tag.html">
+          <span>이름표 보기</span>
+        </a>
+        <a href="guest-book.html">
+          <span>방명록</span>
+        </a>
+      </div>
+      <div class="others">
+        <a href="https://www.smarcle.dev/" target="_blank">
+          <i class="fas fa-book-open"></i>
+        </a>
+      </div>
+      <a href="#" class="navbar__toggleBtn">
+        <i class="fas fa-bars"></i>
+      </a>
+    </nav>
+  </header>
+
+  <main id="name-sheet-main">
+    <div id="disqus_thread"></div>
+    <script>
+      /**
+       *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+       *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+      /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+      (function () {
+        // DON'T EDIT BELOW THIS LINE
+        var d = document,
+          s = d.createElement("script");
+        s.src = "https://1-team.disqus.com/embed.js";
+        s.setAttribute("data-timestamp", +new Date());
+        (d.head || d.body).appendChild(s);
+      })();
+    </script>
+    <noscript
+      >Please enable JavaScript to view the
+      <a href="https://disqus.com/?ref_noscript"
+        >comments powered by Disqus.</a
+      ></noscript
+    >
+  </main>
+  <script
+      src="https://kit.fontawesome.com/d5fbb687f5.js"
+      crossorigin="anonymous"
+    ></script>
+</body>
+</html>

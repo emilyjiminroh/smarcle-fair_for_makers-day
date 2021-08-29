@@ -1,0 +1,130 @@
+.login-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-main {
+  /* 메뉴바 겹침에 대비 -> padding-top*/
+  padding-top: 65px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-title {
+  margin-bottom: 0px;
+}
+
+.login-title h1 {
+  margin: 30px 10px 10px 10px;
+  text-align: center;
+}
+.login-title p {
+  margin-bottom: 0px 20px 0 10px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.ask {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 25px;
+  font-weight: bold;
+  margin: 25px 0px;
+}
+
+.btn_submit {
+  border: none;
+  background-color: transparent;
+  font-size: 25px;
+}
+
+.ask {
+  margin-top: 60px;
+}
+
+.ask form input {
+  width: 250px;
+  font-size: 30px;
+  border: none;
+  border-bottom: 2px solid black;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.ask form input:focus {
+  outline: none;
+  border-bottom-color: steelblue;
+}
+
+.form-name input {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.form-position input {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.name,
+.position {
+  margin-top: 30px;
+  color: navy;
+}
+
+/* js 관련 css */
+.hidden {
+  display: none;
+}
+
+/* 입장 버튼 꾸미기 */
+.enter {
+  margin-top: 20px;
+  width: 250px;
+  height: 60px;
+  background-color: navy;
+  border-radius: 20px;
+  border: none;
+}
+
+.enter a {
+  color: whitesmoke;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.login-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px 0px 20px;
+}
+
+.login-footer span {
+  text-align: center;
+}
+
+.modify {
+  padding: 20px 0px 20px 0px;
+  display: block;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  margin: 20px 0px;
+  text-decoration: none;
+  color: whitesmoke;
+  background-color: steelblue;
+  border-radius: 20px;
+  font-size: 20px;
+}
+
+/* 비율 배정 */
+.login-main {
+  flex: 1 1 90%;
+}
+
+.login-footer {
+  flex: 1 1 10%;
+}

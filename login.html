@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>login page</title>
+    <script
+      src="https://kit.fontawesome.com/d5fbb687f5.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="shortcut icon" href="./img/smarcle_logo.ico" />
+    <script defer src="javascript/login.js"></script>
+    <script defer src="javascript/menu.js"></script>
+  </head>
+
+  <body class="login-body">
+    <nav class="menu-bar">
+      <div class="title">
+        <a href="login.html">
+          <span>SMARCLE-FAIR</span>
+        </a>
+      </div>
+      <div class="others">
+        <a href="https://www.smarcle.dev/" target="_blank">
+          <i class="fas fa-book-open"></i>
+        </a>
+      </div>
+      <a href="#" class="navbar__toggleBtn">
+        <i class="fas fa-bars"></i>
+      </a>
+    </nav>
+    <img
+      class="background-empty guest-book-bg"
+      src="./img/background.png"
+      alt=""
+    />
+
+    <main class="login-main">
+      <header class="login-title">
+        <h1>2021 SMARCLE Makers Day 박람회에 오신 것을 환영합니다!</h1>
+      </header>
+      <section class="ask">
+        <span>당신의 이름은 무엇인가요?</span>
+        <form class="form-name">
+          <input required type="text" class="input-name hidden" />
+          <button class="btn_submit hidden bsn">입력</button>
+        </form>
+        <span class="hidden name"></span>
+      </section>
+      <section class="ask">
+        <span>당신의 신분은 무엇인가요?</span>
+        <form class="form-position">
+          <input required type="text" class="input-position hidden" />
+          <button class="btn_submit hidden bsp">입력</button>
+        </form>
+        <span class="hidden position"></span>
+      </section>
+
+      <div>
+        <button class="hidden enter">
+          <a href="main-start.html">이름표를 받고 입장하세요!</a>
+        </button>
+      </div>
+    </main>
+
+    <footer class="login-footer">
+      <a href="login.html" class="hidden modify"
+        >정보를 고치고 싶다면 누르세요!</a
+      >
+      <p style="color: gray; margin-top: 50px">
+        &copy; 2021. Palllang all rights are reserved
+      </p>
+    </footer>
+  </body>
+</html>

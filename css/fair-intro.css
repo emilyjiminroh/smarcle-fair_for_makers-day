@@ -1,0 +1,81 @@
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1870px;
+}
+.intro-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 2px solid navy;
+}
+.title_text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  letter-spacing: 5px;
+  text-align: center;
+}
+main {
+  width: 50vw;
+}
+.content {
+  margin-top: 100px;
+}
+.img-box {
+  margin-top: 100px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px 0px;
+}
+h2 {
+  font-size: 40px;
+  margin: 30px 0px;
+}
+h3 {
+  font-size: 30px;
+}
+p {
+  font-size: 28px;
+  text-align: justify;
+}
+.act-intro {
+  text-align: center;
+}
+.li_day {
+  font-size: 28px;
+}
+.fa-github {
+  color: black;
+}
+
+li {
+  margin: 70px;
+}
+
+.about_plan img {
+  margin: 20px;
+}
+
+.team {
+  width: 900px;
+  height: 220px;
+}
+
+.intro_git {
+  width: 100px;
+  height: 100px;
+}
+.click-git {
+  font-size: 20px;
+}
