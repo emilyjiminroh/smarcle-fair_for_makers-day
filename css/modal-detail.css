@@ -145,3 +145,6 @@
   flex-direction: column;
   margin: 30px 70px;
 }
+.more_link {
+  color: black;
+}
