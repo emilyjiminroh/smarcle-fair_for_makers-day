@@ -1,4 +1,5 @@
 # smarcle-makers-day-fair
+## [SMARCLE Makers Fair 바로가기](https://smarcle-makers-fair.netlify.app/)
 
 2021년도 여름방학 기간동안 전반적인 HTML, CSS, JS 그리고 github에 대해 공부할 수 있었다.
 
